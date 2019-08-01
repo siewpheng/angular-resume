@@ -35,3 +35,5 @@ export class PersonalDetailsComponent implements OnInit {
     this.isHovering = false
   }
 }
+
+
