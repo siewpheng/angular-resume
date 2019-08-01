@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My Awesome App';
+  button =["about Me", "Resume"]  
 }

@@ -1,1 +1,13 @@
-<p>professional-details</p>
+<div class="professional-details">
+    <span>Name:</span>
+    <span>{{<details Name=""></details></span>
+        <p *ngFor="let detail of details | keyvalue">
+        {{detail.keyvalue}}
+        <span>: {{detail.value}}</span>
+        </p>
+    </p>
+
+</div>
+
+
+
